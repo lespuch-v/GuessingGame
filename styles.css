@@ -1,0 +1,54 @@
+.main-container{
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 700px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-container{
+    /* background-color: green; */
+    padding: 20px;
+    height: 280px;
+    width: 400px;
+    border: 3px solid black;
+}
+#playerNumber2{
+    font-size: 1.3rem;
+
+}
+p{
+    font-size: 1.3rem;
+    margin: 0;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 100ms all;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+button:active{
+    transform: scale(1);
+}
+#outputMSG{
+display: block;
+background-color: antiquewhite;
+margin: 5px 0;
+width: 300px;
+height: 40px;
+font-size: 1.5rem;
+display: flex;
+justify-content: center;
+align-self: center;
+align-items: center;
+color: red;
+font-weight: bolder;
+}
